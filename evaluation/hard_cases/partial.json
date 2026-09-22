@@ -1,0 +1,11 @@
+[
+  {
+    "id": "H_PART_01",
+    "name": "Entity set list over-extension",
+    "evidence": ["The scheme operates in Kerala and Tamil Nadu."],
+    "claim": "The scheme operates in Kerala, Tamil Nadu, and Karnataka.",
+    "expected_verdict": "PARTIALLY_SUPPORTED",
+    "decisive_check": "entity",
+    "hardness_factor": "Kerala and Tamil Nadu are validly supported, but Karnataka is an unsubstantiated hallucination addition."
+  }
+]

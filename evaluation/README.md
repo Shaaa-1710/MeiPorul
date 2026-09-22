@@ -1,0 +1,1 @@
+Evaluation includes controlled hard cases: numeric perturbations, entity substitutions, date/range changes, hedge changes, negation flips, partial claims, relation swaps, conflicting versions, and unsupported additions.

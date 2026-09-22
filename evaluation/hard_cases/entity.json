@@ -1,0 +1,20 @@
+[
+  {
+    "id": "H_ENT_01",
+    "name": "Named location entity substitution",
+    "evidence": ["Applications must be submitted in person at the Chennai office."],
+    "claim": "Applications must be submitted at the Coimbatore office.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "entity",
+    "hardness_factor": "Surface syntactic form matches, but city entity is substituted from Chennai to Coimbatore."
+  },
+  {
+    "id": "H_ENT_02",
+    "name": "Institutional alias normalization",
+    "evidence": ["The initiative was launched by the Govt. of India."],
+    "claim": "The initiative was launched by the Government of India.",
+    "expected_verdict": "SUPPORTED",
+    "decisive_check": "entity",
+    "hardness_factor": "Govt. of India and Government of India represent the exact same normalized institution."
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "H_REL_01",
+    "name": "Cross-entity attribute value swap",
+    "evidence": [
+      "Scheme A provides financial support of ₹50,000 to beneficiaries.",
+      "Scheme B provides financial support of ₹25,000 to beneficiaries."
+    ],
+    "claim": "Scheme B provides ₹50,000.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "relation",
+    "hardness_factor": "All individual words and numbers exist in the document, but the binding between Scheme B and ₹50,000 is swapped."
+  }
+]

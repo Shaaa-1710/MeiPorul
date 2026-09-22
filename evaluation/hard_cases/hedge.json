@@ -1,0 +1,20 @@
+[
+  {
+    "id": "H_HDG_01",
+    "name": "Approximation to exact precision flip",
+    "evidence": ["Applications are generally processed in approximately 10 days."],
+    "claim": "Applications are processed in exactly 10 days.",
+    "expected_verdict": "PARTIALLY_SUPPORTED",
+    "decisive_check": "hedge",
+    "hardness_factor": "Numerical figure 10 matches, but certainty qualifier shifted from approximate to exact."
+  },
+  {
+    "id": "H_HDG_02",
+    "name": "Up to ceiling bound converted to unconditional exact amount",
+    "evidence": ["Participants can receive up to ₹1 lakh under the micro-grant."],
+    "claim": "Participants receive ₹1 lakh.",
+    "expected_verdict": "PARTIALLY_SUPPORTED",
+    "decisive_check": "hedge",
+    "hardness_factor": "Dropping the 'up to' upper-bound qualifier makes the statement factually unconditional."
+  }
+]

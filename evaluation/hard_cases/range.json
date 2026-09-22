@@ -1,0 +1,11 @@
+[
+  {
+    "id": "H_RNG_01",
+    "name": "Age eligibility range boundary shift",
+    "evidence": ["Applicants must be between 18 and 25 years old to qualify."],
+    "claim": "Applicants must be between 18 and 30 years old.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "date",
+    "hardness_factor": "Lower bound is identical (18), but upper bound expanded from 25 to 30."
+  }
+]

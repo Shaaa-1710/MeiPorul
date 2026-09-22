@@ -1,0 +1,20 @@
+[
+  {
+    "id": "H_NEG_01",
+    "name": "Direct negation particle drop",
+    "evidence": ["The applicant does not require a processing fee for registration."],
+    "claim": "The applicant requires a processing fee.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "polarity",
+    "hardness_factor": "Only the negation particle 'not' is dropped; high lexical similarity."
+  },
+  {
+    "id": "H_NEG_02",
+    "name": "Antonym polarity requirement flip",
+    "evidence": ["Submission of Aadhaar card is mandatory for application."],
+    "claim": "Submission of Aadhaar card is optional.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "polarity",
+    "hardness_factor": "Antonym pair mandatory vs optional changes legal requirement."
+  }
+]

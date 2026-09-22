@@ -1,0 +1,20 @@
+[
+  {
+    "id": "H_DATE_01",
+    "name": "Calendar year substitution",
+    "evidence": ["The renewable energy program launched in 2025."],
+    "claim": "The renewable energy program launched in 2024.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "date",
+    "hardness_factor": "Single digit year difference (2025 vs 2024)."
+  },
+  {
+    "id": "H_DATE_02",
+    "name": "Application duration deadline substitution",
+    "evidence": ["Applications must be submitted within 30 days of notification."],
+    "claim": "Applications must be submitted within 60 days.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "date",
+    "hardness_factor": "Duration window manipulated from 30 days to 60 days."
+  }
+]

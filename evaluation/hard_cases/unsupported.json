@@ -1,0 +1,11 @@
+[
+  {
+    "id": "H_UNSUP_01",
+    "name": "Absence of supporting evidence",
+    "evidence": ["The handbook explains general eligibility guidelines for farmers in coastal districts."],
+    "claim": "Applications must be submitted within 30 days.",
+    "expected_verdict": "NOT_ENTAILED",
+    "decisive_check": "nli",
+    "hardness_factor": "Evidence contains no information regarding application deadlines, so claim is not entailed."
+  }
+]

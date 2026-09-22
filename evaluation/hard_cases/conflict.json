@@ -1,0 +1,14 @@
+[
+  {
+    "id": "H_CONF_01",
+    "name": "Temporal policy version conflict",
+    "evidence": [
+      "Policy Version 1: Assistance is fixed at ₹50,000 for all districts.",
+      "Policy Version 2: Assistance revised to ₹75,000 from June 2026."
+    ],
+    "claim": "The assistance is ₹50,000.",
+    "expected_verdict": "UNCERTAIN",
+    "decisive_check": "rules",
+    "hardness_factor": "Evidence documents contain conflicting revisions without an explicit query timeframe context."
+  }
+]

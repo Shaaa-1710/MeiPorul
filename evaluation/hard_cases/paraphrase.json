@@ -1,0 +1,11 @@
+[
+  {
+    "id": "H_PARA_01",
+    "name": "Semantic paraphrase without exact surface match",
+    "evidence": ["The scheme began operations in 2024 across southern districts."],
+    "claim": "The program started in 2024.",
+    "expected_verdict": "SUPPORTED",
+    "decisive_check": "nli",
+    "hardness_factor": "'began operations' is a valid semantic synonym of 'started', so exact match fails but semantic verification succeeds."
+  }
+]

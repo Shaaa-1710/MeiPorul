@@ -1,0 +1,38 @@
+[
+  {
+    "id": "H_NUM_01",
+    "name": "Numeric substitution minimal change",
+    "evidence": ["The scheme provides financial assistance of ₹50,000 to eligible applicants."],
+    "claim": "The scheme provides ₹55,000.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "numeric",
+    "hardness_factor": "Sentence structure is identical; only the critical monetary number changed from ₹50,000 to ₹55,000."
+  },
+  {
+    "id": "H_NUM_02",
+    "name": "Correct number, wrong unit",
+    "evidence": ["The database storage capacity is 2 TB."],
+    "claim": "The database storage capacity is 2 MB.",
+    "expected_verdict": "CONTRADICTED",
+    "decisive_check": "numeric",
+    "hardness_factor": "Numerical digit 2 matches, but storage scale unit changed from TB to MB."
+  },
+  {
+    "id": "H_NUM_03",
+    "name": "Unit-equivalent representation",
+    "evidence": ["The server backup capacity is 2 TB."],
+    "claim": "The server backup capacity is 2000 GB.",
+    "expected_verdict": "SUPPORTED",
+    "decisive_check": "numeric",
+    "hardness_factor": "2 TB is mathematically equivalent to 2000 GB under standard byte conversion."
+  },
+  {
+    "id": "H_NUM_04",
+    "name": "Indian numbering format equivalence",
+    "evidence": ["Government sanctions ₹5 lakh for the community center."],
+    "claim": "The government sanctions ₹500,000 for the community center.",
+    "expected_verdict": "SUPPORTED",
+    "decisive_check": "numeric",
+    "hardness_factor": "₹5 lakh is numerically equal to ₹500,000."
+  }
+]
